@@ -1,0 +1,335 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+.alg-right-pad {
+  float: right;
+  padding-right: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*=======================================
+  NAVBAR ADJUSTMENTS
+==================================================*/
+.navbar-brand {
+  font-size: 25px;
+  padding: 15px 80px 15px 60px;
+}
+.navbar-default .navbar-brand {
+  color: #494242;
+}
+.navbar-default {
+  background-color: #332f2f;
+  border-color: #383333;
+}
+.navbar {
+  border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #050505;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: rgb(49, 46, 46);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: rgb(46, 42, 42);
+}
+/*=======================================
+  BOOTSTRAP ADJUSTMENTS
+==================================================*/
+.row {
+  margin-bottom: 10px;
+}
+.btn {
+  margin-bottom: 5px;
+}
+/*=======================================
+  INDEX PAGE
+==================================================*/
+
+.box-border {
+  border: 1px solid #e1e1e1;
+}
+
+.product-box h3 > a,
+.product-box h3 > a:hover,
+.product-box h3 > a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.offer-box {
+  background-color: #6a75f0;
+  border: 1px solid #096fc0;
+  color: #fff;
+  font-weight: 900;
+  font-size: 16px;
+}
+.offer-box a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+}
+.offer-box a:hover {
+  color: #000;
+}
+.list-group a {
+  font-size: 14px;
+  font-weight: 900;
+  color: #808080;
+}
+.list-group a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.offer-colors {
+  background-color: #b05fdd;
+  border: 1px solid #a228f3;
+}
+.was-validated .custom-file-input:valid ~ .custom-file-label,
+.custom-file-input.is-valid ~ .custom-file-label {
+  border-color: #28a745;
+}
+
+.was-validated .custom-file-input:valid:focus ~ .custom-file-label,
+.custom-file-input.is-valid:focus ~ .custom-file-label {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.25);
+}
+
+.download-app-box {
+  background-color: #069e98;
+  border: 1px solid #0faa8b;
+  padding: 30px;
+  line-height: 40px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+}
+/*=======================================
+  SLIDER main-style.css Changes
+==================================================*/
+.mi-slider {
+  margin-top: 0px;
+}
+
+.offer-text {
+  position: absolute;
+  color: #fff;
+  padding: 14px 16px 12px 16px;
+  margin-top: 10px;
+  background-color: #18b424;
+}
+.offer-text2 {
+  position: absolute;
+  color: #fff;
+  padding: 14px 16px 12px 16px;
+  margin-top: 10px;
+  background-color: #eb0429;
+}
+/*=======================================
+  FOOTER SECTION
+==================================================*/
+.footer-box {
+  background-color: #f5f5f5;
+  padding: 20px 50px 20px 50px;
+}
+.small-box {
+  font-size: 10px;
+}
+
+.footer-box a {
+  color: #808080;
+  text-decoration: none;
+}
+.footer-box a:hover {
+  color: #000;
+}
+.pad-botom {
+  padding-bottom: 30px;
+}
+.footer-box p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 25px;
+}
+.social-box a {
+  color: #333436;
+  text-decoration: none;
+}
+
+.end-box {
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  font-size: 14px;
+}
+.was-validated .custom-file-input:valid ~ .custom-file-label,
+.custom-file-input.is-valid ~ .custom-file-label {
+  border-color: #28a745;
+}
+
+.was-validated .custom-file-input:valid:focus ~ .custom-file-label,
+.custom-file-input.is-valid:focus ~ .custom-file-label {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.25);
+}
+input-group > .custom-file {
+  position: relative;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  min-width: 0;
+  margin-bottom: 0;
+}
+.input-group > .form-control + .custom-file {
+  margin-left: -1px;
+}
+.input-group > .custom-file .custom-file-input:focus {
+  z-index: 4;
+}
+.input-group > .custom-file {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.custom-file {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  margin-bottom: 0;
+}
+.custom-file-input {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  margin: 0;
+  opacity: 0;
+}
+.custom-file-input:focus ~ .custom-file-label {
+  border-color: #80bdff;
+  box-shadow: none;
+}
+.custom-file-input[disabled] ~ .custom-file-label,
+.custom-file-input:disabled ~ .custom-file-label {
+  background-color: #e9ecef;
+}
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: "Browse";
+}
+
+.custom-file-input ~ .custom-file-label[data-browse]::after {
+  content: attr(data-browse);
+}
+
+.custom-file-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+.custom-file-label::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  height: 2.25rem;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #495057;
+  content: "Browse";
+  background-color: #e9ecef;
+  border-left: inherit;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+.custom-control-label::before,
+.custom-file-label,
+.custom-select {
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .custom-control-label::before,
+  .custom-file-label,
+  .custom-select {
+    transition: none;
+  }
+}
+label:not(.form-check-label):not(.custom-file-label) {
+  font-weight: 700;
+}
+.custom-file-input.is-warning ~ .custom-file-label {
+  border-color: #ffc107;
+}
+
+.custom-file-input.is-warning ~ .warning-feedback,
+.custom-file-input.is-warning ~ .warning-tooltip {
+  display: block;
+}
+
+.custom-file-input.is-warning:focus ~ .custom-file-label {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.25);
+}
